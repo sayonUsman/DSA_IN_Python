@@ -17,7 +17,7 @@ class LinkedList:
         temp_node = self.head
 
         if self.head is None:
-            node = Node(data=data, link=self.head)
+            node = Node(data=data, link=None)
             self.head = node
 
         else:
